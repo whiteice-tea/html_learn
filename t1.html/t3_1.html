@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T3_1</title>
+</head>
+<body>
+    <h1>这是t3_1页面</h1>
+
+    <h2>表单容器</h2>
+    <form action="">
+        <ul>
+            <!-- type="text"：普通文本
+            type="password"：密码（显示点点）
+            type="number"：数字
+            type="email"：邮箱（带基础校验）
+            type="checkbox"：勾选框
+            type="radio"：单选
+            type="date"：日期选择器
+            type="file"：上传文件
+            type="submit"：提交按钮（现在更常用 <button>） -->
+            <li>
+                账号：<input type="text" placeholder="  请输入账号 " name="username" accesskey="u" autocomplete="off">
+            </li>
+            <!-- placeholder  提示信息 -->
+             <!-- name  元素的名称 -->
+              <!-- maxlength  允许的最大字符数 -->
+               <!-- accesskey  快捷键 alt+<key> 在工程上一般不使用 -->
+                <!-- autocomplete  自动完成 取值on/off（默认on） -->
+            <li>
+                密码：<input type="password" placeholder="  请输入密码 " name="password" maxlength="6">
+            </li>
+            <li>
+                <!-- label标签的使用：1 -->
+                性别：
+                <input type="radio" name="gender" value="male" check id="man">
+                <label for="man">男</label>
+                <input type="radio" name="gender" value="female" id="woman">
+                <label for="woman">女</label>
+            </li>
+            <li>
+                <!-- label标签的使用：2 -->
+                爱好：
+                <label><input type="checkbox" name="hobby" value="sing" checked>唱歌</label>
+                <label><input type="checkbox" name="hobby" value="dance">跳舞</label>
+                <label><input type="checkbox" name="hobby" value="rap">rap</label>
+            </li>
+            <!-- checked 属性表示默认选中 -->
+             <!-- value 表示值 -->
+            <li>
+                头像：<input type="file" name="avatar" multiple accept="image/png, image/jpeg，avif">
+            </li>
+            <!-- multiple 允许选多个文件 -->
+             <!-- accept 规定选择的文件类型 -->
+            <li>
+                留言：
+                <textarea name="message" cols="30" rows="5" placeholder="请输入留言内容"></textarea>
+                <!-- textarea 多行文本输入框 ,rows文本行数，cols列数 -->
+            </li>
+            <li>
+                <select name="city" id="city">
+                    <option value="hb">湖北</option>
+                    <option value="bj" selected>北京</option>
+                    <option value="sh">上海</option>
+                    <option value="gz">广州</option>
+                </select>
+            </li>
+            <li>
+                <button>登录</button>
+            </li>
+            <li>
+                特殊字符：
+                <div>
+                    &nbsp; 空格
+                    &lt; 小于号
+                    &gt; 大于号
+                    &amp; 和号  
+                    &quot; 双引号
+                    &copy; 版权符号
+                    &reg; 注册符号
+                    &yen; 日元符号
+                    &mdash; 破折号
+                    &ldquo; 左双引号
+                    &rdquo; 右双引号
+                    左书名号（《）：&laquo;
+                    右书名号（》）：&raquo;
+                </div>
+            </li>
+            
+
+        </ul>
+    </form>
+
+</body>
+</html>

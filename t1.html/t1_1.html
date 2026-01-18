@@ -1,0 +1,51 @@
+ <!DOCTYPE html><!--这是一个html5的页面 -->
+<html lang="en"><!--指定语言为英语 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--这是移动端开发的关键。它告诉手机浏览器：网页宽度要等于设备宽度，初始缩放比例为 1。没有它，网页在手机上会显得非常小。-->
+    <title>刘泽宇的HTML学习</title>
+    <!-- 页面滑动效果 -->
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    
+    <p>
+        <a href="#1">1.视频段落</a><br>
+        <a href="#2">2.音频段落</a><br>
+        <a href="#3">3.链接</a><br>
+    </p>
+    <h2 id="1">视频段落</h2>
+    <video height="400" controls autoplay muted loop poster="../cl/DuLin.avif">
+        <!-- controls：显示视频播放控件
+        autoplay：自动播放视频
+        muted：静音播放视频
+        loop：循环播放视频
+        poster：视频加载前显示的图片 -->
+        <source src="../cl/blue.mp4" type="video/mp4">
+        <p>您的浏览器不支持 HTML5 Video 标签，请升级浏览器。</p>
+    </video>
+
+    
+    <h2 id="2">音频段落</h2>
+    <!--音频不会自动播放d-->
+    <audio  controls autoplay >
+        <source src="../cl/qinglian.mp3" type="audio/mp3">
+        <p>您的浏览器不支持 HTML5 Audio 标签，请升级浏览器。</p>
+
+    </audio>
+    <h2 id="3">链接</h2>
+    <p>内部链接：</p>
+    <a href="t1_2.html" title="t1_2" target="_blank">跳转到t1_2.html页面</a>
+    <p>外部链接：</p>
+    <a href="https://www.baidu.com">跳转到百度首页</a>
+    <p>电子邮件链接：</p>
+    <a href="mailto:3592523965@qq.com">发送邮件</a>
+
+
+    </p>
+</body>
+</html> 
