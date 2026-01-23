@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>font简写和继承性</title>
+    <style>
+        body{
+            font: 16px "Microsoft YaHei";
+        }
+
+        div {
+            color: red;
+            font-size: 25px
+        }
+
+        /* p {
+            color: blue;
+            font-weight: bold;
+        } */
+         /* 在继承情况下子类会优先运用自己的样式，如果子类没有定义则会继承父类的样式 */
+    </style>
+
+</head>
+<body>
+    <div>
+        <p>
+            我是p标签
+        </p>
+    </div>
+</body>
+</html>
