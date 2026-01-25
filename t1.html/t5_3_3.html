@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素选择器</title>
+
+    <style>
+        /* 选择首行文字 */
+        p::first-line {
+            color: #ff6900;
+        }
+        /* 选择首字母 */
+        p::first-letter {
+            font-size: 24px;
+            color: #8fbcf1;
+            font-weight: bold;
+        }
+        /* placeholder 伪元素选择器 */
+        /* 用于自定义输入框的提示词的占位符样式 */
+        input::placeholder {
+            color: #ff0000;
+            font-size: 12px;
+        }
+        /* 用于自定义输入框的占位符样式 */
+        input {
+            color: #ff6900;
+        }
+
+
+        /* 重要 */
+
+        /* before和after 伪元素选择器 */
+        /* 其中一定要写content属性，否则无法显示效果 */
+        div::before {
+            content: "before";
+            color: red;
+        }
+        div::after {
+            content: "after";
+            color: blue;
+        }
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <p>
+        伪元素选择器：
+        1. ::before 在元素的内容前面插入内容
+        2. ::after 在元素的内容后面插入内容
+        3. content 属性 设置插入的内容
+
+    </p>
+
+    <input type="text" placeholder="请输入内容">
+    <div class="box">red</div>
+</body>
+</html>

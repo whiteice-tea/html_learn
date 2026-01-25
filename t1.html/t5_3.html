@@ -3,30 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>font简写和继承性</title>
+    <title>font简写和继承性,伪类选择器</title>
     <style>
-        body{
+        /* body{
             font: 16px "Microsoft YaHei";
         }
 
         div {
             color: red;
             font-size: 25px
-        }
+        } */
 
         /* p {
             color: blue;
             font-weight: bold;
         } */
          /* 在继承情况下子类会优先运用自己的样式，如果子类没有定义则会继承父类的样式 */
+        
+
+        /* 未访问链接 */
+        /* a:link {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+
+        } */
+
+        /* 已访问链接 */
+        /* a:visited {
+            color: blue;
+            text-decoration: none;
+
+        } */
+
+        /* 鼠标悬停链接 */
+        /* a:hover {
+            color: green;
+            text-decoration: underline;
+        } */
+
+        /* 激活链接 */
+        /* a:active {
+            color: yellow;
+            text-decoration: none;
+        } */
+
+        /* 一般开发这样写a标签的伪类选择器 */
+        /* a {
+            text_decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        } */
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(0, 191, 255);
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .box:hover {
+            background-color: rgb(255, 69, 0);
+            
+            color: rgb(0, 0, 0);/* 字体颜色 */
+            
+        }
+
+
+        .search {
+            width: 100px;
+            height: 20px;
+        }
+        .search:focus {
+            color: rgb(71, 165, 42);
+            /* 字体颜色 */
+            background-color: deeppink;
+            width: 200px;
+            
+        }
+
+
+        
+
+
     </style>
+
+
+
+
 
 </head>
 <body>
-    <div>
+    <!-- <div>
         <p>
             我是p标签
         </p>
-    </div>
+    </div> -->
+    <!-- <a href="https://www.baidu.com/">百度一下</a>
+    <a href="#">hhhhhh</a>
+    <a href="#">fasdf</a> -->
+
+
+    <div class="box">文字</div>
+
+    <input type="text" class="search">
+
 </body>
 </html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>结构伪类选择器以及表格隔行变色效果</title>
+
+    <style>
+        /* 选择第一个小li标签 */
+        /* .ul1 li:first-child {
+            color: red;
+        }
+
+        .ul1 li:last-child {
+            color: blue;
+        } */
+
+        /* 选择第3个li标签 */
+        /* odd奇数，even偶数 */
+        /* 3n，三的倍数 ，n+2，第二个以及以后的元素，-n+3，前面三个元素 */
+
+        /* .ul1 li:nth-child(3) {
+            background-color: #ccc;
+        }
+
+
+        .ul2 li:nth-child(-n+3) {
+            background-color: #eee;
+        } */
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .data {
+            /* 合并相邻边框 */
+            border-collapse: collapse;
+            /* 边框 1像素 实线 颜色 */
+            border: 1px solid #f1f1f1;
+            width: 400px;
+            margin: 0 auto;
+            /* 让表格里面的文字水平垂直居中 */
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .data tr {
+            height: 35px;
+        }
+
+        .data tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+
+        .data tr:first-child {
+            background-color: #8fbcf1;
+            color: #fff;
+        }
+
+        .data tr:hover {
+            background-color: #f1f1f1;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <!-- <ul class="ul1">
+        <li>列表项 1</li>
+        <li>列表项 2</li>
+        <li>列表项 3</li>
+        <li>列表项 4</li>
+        <li>列表项 5</li>
+        <li>列表项 6</li>
+        <li>列表项 7</li>
+        <li>列表项 8</li>
+        <li>列表项 9</li>
+        <li>列表项 10</li>
+    </ul>
+
+    <ul class="ul2">
+        <li>列表项 1</li>
+        <li>列表项 2</li>
+        <li>列表项 3</li>
+        <li>列表项 4</li>
+        <li>列表项 5</li>
+        <li>列表项 6</li>
+        <li>列表项 7</li>
+        <li>列表项 8</li>
+        <li>列表项 9</li>
+        <li>列表项 10</li>
+    </ul> -->
+
+    <table class="data">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+            <td>张三</td>
+            <td>18</td>
+            <td>男</td>
+        </tr>
+        <tr>    
+            <td>李四</td>
+            <td>20</td>
+            <td>女</td>
+        </tr>
+        <tr>
+            <td>王五</td>
+            <td>22</td>
+            <td>男</td>
+        </tr>
+        <tr>
+            <td>赵六</td>
+            <td>19</td>
+            <td>女</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
