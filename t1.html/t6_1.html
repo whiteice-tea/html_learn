@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优先级</title>
+
+    <style> 
+        * {
+            /* color: red!important; */
+        }
+
+        div {
+            color: antiquewhite;
+        }
+
+        .box {
+            color: rgb(0, 255, 0);
+        }
+
+        #header {
+            color: blue;
+        }
+
+        .nal ul li a {
+            color: red;
+        }
+
+        p {
+            color: aqua;
+        }
+
+        span {
+            color: coral;
+        }
+
+        header {
+            font-weight: 400px;
+        }
+
+        h1 {
+            font-weight: 400;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box" id="header" style="color: pink;">CSS</div>
+    <div class="div">
+        <ul>
+            <li><a href="#">home</a></li>
+        </ul>
+    </div>
+
+    <!-- 继承的权重是0 -->
+    <p><span>text</span></p>
+
+
+    <!-- h和链接 有自己默认的样式-->
+    <header>
+        <h1>H1</h1>
+    </header>
+
+</body>
+</html>
