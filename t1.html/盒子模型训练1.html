@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div 之所以是竖着的，是因为 div 默认是 块级元素（block）：每个都独占一行。 */
+        /* 父容器 */
+        .row {
+            display: flex;
+            gap: 12px;  /* 两个盒子之间的间距 */
+            /* 可选：让这一行居中显示 */
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .box1,.box2 {
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            /* 让文字垂直居中显示 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1 {
+            background-color: pink;
+        }
+        .box2 {
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+
+        <div class="box1">采购清单</div>
+        <div class="box2">我的购物车</div>
+    </div>
+</body>
+</html>

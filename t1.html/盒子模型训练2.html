@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ===== 筛选区 ===== */
+        .filter-box {
+        display: flex;
+        background: #f2f2f2;
+        padding: 12px;
+        border-radius: 8px;
+        }
+
+        .left {
+        width: 100px;
+        }
+
+        .title {
+        background: #2f80ed;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        margin-bottom: 6px;
+        border-radius: 4px;
+        }
+
+        /* 当前激活 */
+        .active {
+        background: #1b5fd9;
+        }
+
+        .right {
+        flex: 1;
+        margin-left: 12px;
+        }
+
+        .row {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 10px;
+        }
+
+
+        /* ===== 英雄区 ===== */
+
+        .hero {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-top: 16px;
+        }
+
+        .card {
+        width: 120px;
+        text-align: center;
+        }
+
+        .card img {
+        width: 100%;
+        border-radius: 8px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="filter-box">
+        <div class="left">
+            <div class="title">综合</div>
+            <div class="title">角色</div>
+        </div>
+
+        <div class="right">
+            <div class="row">
+                <label>
+                    <input type="checkbox" name="role" value="1" checked>
+                    本周免费
+                </label>
+
+                <label>
+                    <input type="checkbox" name="role" value="2">
+                    新手推荐
+                </label>
+            </div>
+                <div class="row">
+                    <label><input type="radio" name="job" checked> 全部</label>
+                    <label><input type="radio" name="job"> 杜林</label>
+                    <label><input type="radio" name="job"> 万叶</label>
+                    <label><input type="radio" name="job"> 胡桃</label>
+                    <label><input type="radio" name="job"> 行秋</label>
+                </div>
+        </div>
+        
+
+    </div>
+
+    <div class="hero">
+        <div class="card">
+            <img src="../cl/HUTAO.png" alt="胡桃">
+            <p>胡桃</p>
+        </div>
+        <div class="card">
+            <img src="../cl/xingqiu.png" alt="行秋">
+            <p>行秋</p>
+        </div>
+        <div class="card">
+            <img src="../cl/wanye.png" alt="万叶">
+            <p>万叶</p>
+        </div>
+        <div class="card">
+            <img src="../cl/DuLin.avif" alt="杜林">
+            <p>杜林</p> 
+        </div>
+    </div>
+</body>
+</html>
