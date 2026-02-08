@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1.外边距折叠：当两个块级元素的外边距相遇时，取较大的外边距值作为最终的外边距，而不是将它们相加。 */
+        /* 2.外边距折叠只发生在垂直方向上，即上下外边距之间，而左右外边距不会发生折叠。 */
+        /* 3.外边距折叠只发生在块级元素之间，行内元素的外边距不会发生折叠。 */
+        /* 4.当一个块级元素的下外边距与另一个块级元素的上外边距相遇时，如果其中一个元素没有内容、内边距和边框，那么这两个元素的外边距会发生折叠。 */
+        /* 5.当一个块级元素的下外边距与另一个块级元素的上外边距相遇时，如果其中一个元素具有内容、内边距或边框，那么这两个元素的外边距不会发生折叠，而是会相加。 */
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 10px;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            margin: 20px;
+        }
+
+        .title {
+            width: 200px;
+            height: 50px;
+            background-color: lightgreen;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">box one</div>
+    <div class="box2">box two</div>
+    <div class="title">title</div>
+</body>
+</html>

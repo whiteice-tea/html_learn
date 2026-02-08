@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            /* 给父亲添加边框 */
+            /* border: 2px solid black; */
+            /* padding: 20px; */
+            /* 给父元素设置了内边距后，子元素的外边距就不会与父元素的外边距发生折叠，而是会与父元素的内边距相加，形成一个新的外边距。 */
+            /* 给父亲添加属性 */
+            overflow: hidden;
+        }
+
+        .son {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            margin-top: 30px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

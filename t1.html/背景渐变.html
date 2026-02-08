@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            /* background: linear-gradient(to top, red, yellow); */
+            /* deg 角度 */
+            background: linear-gradient(90deg, red 0%,blue 50%, yellow 100%);
+             /* to top：从下往上渐变 */
+             /* to right：从左往右渐变 */
+             /* to bottom：从上往下渐变 */
+             /* to left：从右往左渐变 */
+             /* 0%：起始位置，100%：结束位置 */
+
+        }
+
+        .text {
+            font-size: 30px;
+            font-weight: 800;
+
+            background-image: linear-gradient(90deg, #022640, #5786ab);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+             /* background-clip: text; 只对文本内容生效，背景图片只显示在文本内容上，文本以外的部分不显示背景图片。 */
+             /* -webkit-background-clip: text; 兼容性更好，适用于大多数浏览器。 */
+             /* -webkit-text-fill-color: transparent; 将文本颜色设置为透明，使背景图片能够透过文本显示出来。 */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="text">M4 晶片，咻咻飛快。</div>
+    
+</body>
+</html>

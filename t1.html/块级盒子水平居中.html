@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        [class*="box"] {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .box1 {
+            margin: auto;
+        }
+        .box2 {
+            background-color: skyblue;
+        }
+
+        /* 行内盒子可以给它套个块级盒子就可实现居中对齐 */
+
+        span {
+            margin: auto;
+            background-color: lightgreen;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <p><span>123</span></p>
+</body>
+</html>

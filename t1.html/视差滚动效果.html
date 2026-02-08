@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+        /* 让body和html的高度等于视口高度 */
+        section[class^="section"] {
+            width: 100%;
+            height: 100%;
+            
+        }
+        .section1 {
+            background: fixed url(../cl/wonderful.png) no-repeat center center/cover;
+        }
+
+        .section2 {
+            background: fixed url(../cl/hushui.png) no-repeat center center/cover;
+        }
+
+        .section3 {
+            background: fixed url(../cl/yunhai.png) no-repeat center center/cover;
+        }
+
+        .section4 {
+            background: fixed url(../cl/shanshui.png) no-repeat center center/cover;
+        }
+        
+        .content {
+            width: 100%;
+            height: 30%;
+            background-color: rgba(0, 0, 0, 0.8);
+             /* 半透明背景 */
+             /* rgba(red, green, blue, alpha) */
+             /* alpha：透明度，取值范围0-1，0完全透明，1完全不透明 */
+            color: white;
+            line-height: 30px;
+            font-size: 16px;
+            
+            padding: 20px;
+        }
+
+        section[class^="section"] h2 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 36px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <section class="section1">
+        <div class="content">
+            <p>晚霞映照群山，斑斓云彩与巍峨岩石倒映在静谧湖面，水草丰美，尽显旷野黄昏的壮丽。</p>
+        </div>
+        <h2>落日夕阳</h2>
+    </section>
+    <section class="section2">
+        <div class="content">
+            <p>晚霞映照群山，斑斓云彩与巍峨岩石倒映在静谧湖面，水草丰美，尽显旷野黄昏的壮丽。</p>
+        </div>
+        <h2>落日夕阳</h2>
+    </section>
+    <section class="section3">
+        <div class="content">
+            <p>晚霞映照群山，斑斓云彩与巍峨岩石倒映在静谧湖面，水草丰美，尽显旷野黄昏的壮丽。</p>
+        </div>
+        <h2>落日夕阳</h2>
+    </section>
+    <section class="section4">
+        <div class="content">
+            <p>晚霞映照群山，斑斓云彩与巍峨岩石倒映在静谧湖面，水草丰美，尽显旷野黄昏的壮丽。</p>
+        </div>
+        <h2>落日夕阳</h2>
+    </section>
+</body>
+</html>

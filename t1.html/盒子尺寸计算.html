@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 140px;
+            height: 140px;
+            background-color: pink;
+            box-sizing: content-box;
+            border: 10px solid red;
+            padding: 20px;
+             /* 盒子模型：content-box（默认值）和border-box */
+             /* content-box：宽高只包括内容区域，不包括内边距和边框 */
+             /* 得手动计算边框像素 */
+             /* border-box：宽高包括内容区域、内边距和边框 */
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            box-sizing: border-box;
+            border: 10px solid rgb(40, 2, 255);
+            padding: 20px;
+             /* 盒子模型：content-box（默认值）和border-box */
+             /* content-box：宽高只包括内容区域，不包括内边距和边框 */
+             /* border-box：宽高包括内容区域、内边距和边框 */
+             /* 不用手动计算边框像素 */
+        }
+
+        .box3 {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">1</div>
+    <div class="box2">2</div>
+    <div class="box3"></div>
+</body>
+</html>
