@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+
+            box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+            /* box-shadow: 水平偏移 垂直偏移 模糊距离 扩散距离 颜色 */
+
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+
+            box-shadow: 0 0 10px 10px inset rgba(0, 0, 0, 0.5);
+                /* inset 让阴影变成内阴影 */
+
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 100px auto;
+            transition: all 0.5s;
+            /* 过渡 */
+            /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+                水平偏移 垂直偏移 模糊距离 扩散距离 颜色 */
+
+        }
+        .box3:hover{
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+                /* 水平偏移 垂直偏移 模糊距离 扩散距离 颜色 */
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

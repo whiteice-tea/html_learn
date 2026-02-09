@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+            
+        }
+        body {
+            background-color: #ccc;
+        }
+
+        .cart {
+            width: 622px;
+            height: 560px;
+            background-color: #fff;
+            margin: 100px auto;
+            text-align: center;
+            transition: all .4s ease;
+        }
+
+        .cart:hover {
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .cart img {
+            width: 60%;
+            height: 60%;
+            margin-top: 20px;
+
+        }
+
+        .cart .title {
+            font-size: 28px;
+            font-weight: 400;
+            color: #333;
+            margin-top: 18px;
+        }
+
+        .cart .desc {
+            font-size: 20px;
+            color: #b0b0b0;
+            /* 单行文本溢出显示省略号 */
+            white-space: nowrap;
+
+            overflow: hidden;
+            /* 溢出文字隐藏 */
+            text-overflow: ellipsis;
+            /* 溢出文本显示省略号 */
+            /* margin: 0 30px; */
+            padding: 0 30px; 
+        }
+        /* 单行文字溢出显示省略号 */
+        /* text-overflow: ellipsis; */
+        /* overflow: hidden; */
+        /* white-space: nowrap; */
+        
+        多行文本溢出显示省略号
+        .cart .desc {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            /* display: -webkit-box; 让元素成为一个伸缩容器，并且使用 WebKit 内核的浏览器支持的属性。 */
+            /* -webkit-box-orient: vertical; 设置伸缩容器的子元素在垂直方向上排列。 */  
+            /* -webkit-line-clamp: 2; 限制文本显示的行数为 2 行，超过部分会被截断并显示省略号。 */
+            /* 注意：-webkit-line-clamp 需要配合 display: -webkit-box 和 -webkit-box-orient: vertical 一起使用才能生效。 */
+        }   
+        .cart .price {
+            font-size: 28px;
+            color: #b0b0b0;
+            margin-top: 10px;
+        }
+
+        .cart .price span {
+            font-size: 28px;
+            color: #ff6700;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <img src="../cl/AirPods.png" alt="">
+        <!-- img不是块级元素，不会塌陷 -->
+        <h3 class="title">苹果AirPods4</h3>
+        <p class="desc">主动降噪，我要搞一个6666666666666666666666666hggggggggg666666</p>
+        <p class="price">
+            <span>¥1299</span>
+            <del>¥1499</del>
+        </p>
+    </div>
+
+</body>
+</html>
