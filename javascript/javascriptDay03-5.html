@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        let sum=1000000000
+        while(true){
+            alert('欢迎使用atm')
+            switch(prompt('请输入操作类型：1.取款 2.存款 3.查询余额 4.退出'))
+            
+            {
+                case '1':
+                    let t=+prompt('请输入取款金额')
+                    sum-=t
+                    alert('取款成功')
+                    console.log('取款成功')
+                    break
+                case '2':
+                    +prompt('请输入存款金额')
+                    sum+=t
+                    alert('存款成功')
+                    console.log('存款成功')
+                    break
+                case '3':
+                    
+                    alert('余额为'+sum)
+                    console.log('余额为'+sum)
+                    break
+                case '4':
+                    alert('感谢使用atm')
+                    break
+                default:
+                    alert('输入错误，请重新输入')
+                    console.log('输入错误，请重新输入')
+            }
+            
+            
+        }
+    </script>
+</body>
+</html>
