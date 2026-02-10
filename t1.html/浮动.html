@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul,li {
+            list-style: none;
+        }
+
+        .big {
+            width: 330px;
+            height: 330px;
+            background-color: rgb(0, 217, 255);
+            margin: 100px auto;
+            position: relative;
+        }
+
+        .big li {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin-right: 15px;
+        }
+
+        .big li:nth-child(odd){
+            background-color: #ff6700;
+        }
+
+        .big li:nth-child(even) {
+            background-color: skyblue;
+        }
+
+        .big li:nth-child(3n) {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <ul class="big">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <LI>one</LI>
+        <LI>two</LI>
+        <LI>three</LI>
+    </ul>
+
+</body>
+</html>

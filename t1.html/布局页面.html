@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul,li {
+            list-style: none;
+        }
+
+        .subbar {
+            width: 243px;
+            height: 460px;
+            background-color: #9d9b9b; 
+            margin: 100px auto;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        .subbar ul li a {
+            /* 把链接转换成块级元素 */
+            display: block;
+            height: 42px;
+            line-height: 42px;
+            /* background-color: #ff6700; */
+            color: #fff;
+            padding-left: 20px;
+        }
+
+        .subbar ul li a:hover {
+            background-color: #ff6700;
+        }
+
+        .list {
+            width: 400px;
+            height: 400px;
+            border: 1px solid red;
+            margin: 0 auto;
+        }
+
+        .list a {
+            /* 转换成行内块元素 */
+            display: inline-block;
+
+            height: 30px;
+            line-height: 30px;
+            /* background-color: pink; */
+            color: #fff;
+            background-color: #ccc;
+            border-radius: 5px;
+
+            font-size: 12px;
+            padding: 0 15px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="subbar">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">服务</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">联系</a></li>
+        </ul>
+    </div>
+    <div class="list">
+        <a href="#">11111111</a>
+        <a href="#">2222222222</a>
+        <a href="#">33333333333</a>
+        <a href="#">444444444444</a>
+        <a href="#">5555555555555</a>
+    </div>
+</body>
+</html>
