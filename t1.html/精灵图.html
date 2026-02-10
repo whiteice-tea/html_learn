@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .row {
+            display: flex;
+            /*展示方式*/
+            gap: 12px;  /* 两个盒子之间的间距 */
+        }
+
+        .box1 {
+            width: 27px;
+            height: 26px;
+            background: url(../cl/item.png) no-repeat 0 -169px;
+        }
+        /* 精灵图的核心是作为背景 */
+
+        .box2 {
+            width: 28px;
+            height: 26px;
+            background: url(../cl/item.png) no-repeat -90px -170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="box1"></div>
+        <div class="box2"></div>
+
+    </div>
+</body>
+</html>

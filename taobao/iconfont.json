@@ -1,0 +1,359 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2161",
+      "name": "收藏夹",
+      "font_class": "shoucangjia",
+      "unicode": "3432",
+      "unicode_decimal": 13362
+    },
+    {
+      "icon_id": "2166",
+      "name": "水瓶座",
+      "font_class": "shuipingzuo",
+      "unicode": "3437",
+      "unicode_decimal": 13367
+    },
+    {
+      "icon_id": "2167",
+      "name": "双鱼座",
+      "font_class": "shuangyuzuo",
+      "unicode": "3438",
+      "unicode_decimal": 13368
+    },
+    {
+      "icon_id": "2168",
+      "name": "摩羯座",
+      "font_class": "mojiezuo",
+      "unicode": "3439",
+      "unicode_decimal": 13369
+    },
+    {
+      "icon_id": "2169",
+      "name": "处女座",
+      "font_class": "chunvzuo",
+      "unicode": "343a",
+      "unicode_decimal": 13370
+    },
+    {
+      "icon_id": "2170",
+      "name": "狮子座",
+      "font_class": "shizizuo",
+      "unicode": "343b",
+      "unicode_decimal": 13371
+    },
+    {
+      "icon_id": "2171",
+      "name": "巨蟹座",
+      "font_class": "juxiezuo",
+      "unicode": "343c",
+      "unicode_decimal": 13372
+    },
+    {
+      "icon_id": "2172",
+      "name": "天蝎座",
+      "font_class": "tianhezuo",
+      "unicode": "343d",
+      "unicode_decimal": 13373
+    },
+    {
+      "icon_id": "2173",
+      "name": "射手座",
+      "font_class": "sheshouzuo",
+      "unicode": "343e",
+      "unicode_decimal": 13374
+    },
+    {
+      "icon_id": "2174",
+      "name": "天秤座",
+      "font_class": "tianchengzuo",
+      "unicode": "343f",
+      "unicode_decimal": 13375
+    },
+    {
+      "icon_id": "2175",
+      "name": "双子座",
+      "font_class": "shuangzizuo",
+      "unicode": "3440",
+      "unicode_decimal": 13376
+    },
+    {
+      "icon_id": "2176",
+      "name": "金牛座",
+      "font_class": "jinniuzuo",
+      "unicode": "3441",
+      "unicode_decimal": 13377
+    },
+    {
+      "icon_id": "2177",
+      "name": "牡羊座",
+      "font_class": "muyangzuo",
+      "unicode": "3442",
+      "unicode_decimal": 13378
+    },
+    {
+      "icon_id": "2186",
+      "name": "专辑",
+      "font_class": "zhuanji",
+      "unicode": "344b",
+      "unicode_decimal": 13387
+    },
+    {
+      "icon_id": "2187",
+      "name": "瀑布流",
+      "font_class": "pubuliu",
+      "unicode": "344c",
+      "unicode_decimal": 13388
+    },
+    {
+      "icon_id": "2188",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "344d",
+      "unicode_decimal": 13389
+    },
+    {
+      "icon_id": "2189",
+      "name": "文章",
+      "font_class": "wenzhang",
+      "unicode": "344e",
+      "unicode_decimal": 13390
+    },
+    {
+      "icon_id": "2190",
+      "name": "图片",
+      "font_class": "tupian",
+      "unicode": "344f",
+      "unicode_decimal": 13391
+    },
+    {
+      "icon_id": "2191",
+      "name": "宝贝",
+      "font_class": "baobei",
+      "unicode": "3450",
+      "unicode_decimal": 13392
+    },
+    {
+      "icon_id": "2192",
+      "name": "店铺",
+      "font_class": "dianpu",
+      "unicode": "3451",
+      "unicode_decimal": 13393
+    },
+    {
+      "icon_id": "2193",
+      "name": "大杂烩",
+      "font_class": "dazahui",
+      "unicode": "3452",
+      "unicode_decimal": 13394
+    },
+    {
+      "icon_id": "2194",
+      "name": "摄影旅行",
+      "font_class": "sheyinglvxing",
+      "unicode": "3453",
+      "unicode_decimal": 13395
+    },
+    {
+      "icon_id": "2195",
+      "name": "搞笑趣味",
+      "font_class": "gaoxiaoquwei",
+      "unicode": "3454",
+      "unicode_decimal": 13396
+    },
+    {
+      "icon_id": "2196",
+      "name": "明星",
+      "font_class": "mingxing",
+      "unicode": "3455",
+      "unicode_decimal": 13397
+    },
+    {
+      "icon_id": "2197",
+      "name": "宠物",
+      "font_class": "chongwu",
+      "unicode": "3456",
+      "unicode_decimal": 13398
+    },
+    {
+      "icon_id": "2198",
+      "name": "DIY",
+      "font_class": "DIY",
+      "unicode": "3457",
+      "unicode_decimal": 13399
+    },
+    {
+      "icon_id": "2199",
+      "name": "美食",
+      "font_class": "meishi",
+      "unicode": "3458",
+      "unicode_decimal": 13400
+    },
+    {
+      "icon_id": "2200",
+      "name": "情感",
+      "font_class": "qinggan",
+      "unicode": "3459",
+      "unicode_decimal": 13401
+    },
+    {
+      "icon_id": "2201",
+      "name": "母婴",
+      "font_class": "muying",
+      "unicode": "345a",
+      "unicode_decimal": 13402
+    },
+    {
+      "icon_id": "2202",
+      "name": "家居",
+      "font_class": "jiaju",
+      "unicode": "345b",
+      "unicode_decimal": 13403
+    },
+    {
+      "icon_id": "2203",
+      "name": "美发",
+      "font_class": "meifa",
+      "unicode": "345c",
+      "unicode_decimal": 13404
+    },
+    {
+      "icon_id": "2204",
+      "name": "美容",
+      "font_class": "meirong",
+      "unicode": "345d",
+      "unicode_decimal": 13405
+    },
+    {
+      "icon_id": "2205",
+      "name": "数码",
+      "font_class": "shuma",
+      "unicode": "345e",
+      "unicode_decimal": 13406
+    },
+    {
+      "icon_id": "2206",
+      "name": "时尚",
+      "font_class": "shishang",
+      "unicode": "345f",
+      "unicode_decimal": 13407
+    },
+    {
+      "icon_id": "2207",
+      "name": "运动户外",
+      "font_class": "yundonghuwai",
+      "unicode": "3460",
+      "unicode_decimal": 13408
+    },
+    {
+      "icon_id": "2208",
+      "name": "男装",
+      "font_class": "nanzhuang",
+      "unicode": "3461",
+      "unicode_decimal": 13409
+    },
+    {
+      "icon_id": "2209",
+      "name": "配饰",
+      "font_class": "peishi",
+      "unicode": "3462",
+      "unicode_decimal": 13410
+    },
+    {
+      "icon_id": "2210",
+      "name": "鞋子",
+      "font_class": "xiezi",
+      "unicode": "3463",
+      "unicode_decimal": 13411
+    },
+    {
+      "icon_id": "2211",
+      "name": "包包",
+      "font_class": "baobao",
+      "unicode": "3464",
+      "unicode_decimal": 13412
+    },
+    {
+      "icon_id": "2212",
+      "name": "女装",
+      "font_class": "nvzhuang",
+      "unicode": "3465",
+      "unicode_decimal": 13413
+    },
+    {
+      "icon_id": "2217",
+      "name": "编辑",
+      "font_class": "bianji",
+      "unicode": "3466",
+      "unicode_decimal": 13414
+    },
+    {
+      "icon_id": "2218",
+      "name": "上传",
+      "font_class": "shangchuan",
+      "unicode": "3467",
+      "unicode_decimal": 13415
+    },
+    {
+      "icon_id": "2372",
+      "name": "全部",
+      "font_class": "quanbu1",
+      "unicode": "34fe",
+      "unicode_decimal": 13566
+    },
+    {
+      "icon_id": "2373",
+      "name": "U站",
+      "font_class": "Uzhan",
+      "unicode": "34ff",
+      "unicode_decimal": 13567
+    },
+    {
+      "icon_id": "2374",
+      "name": "文章",
+      "font_class": "wenzhang1",
+      "unicode": "3500",
+      "unicode_decimal": 13568
+    },
+    {
+      "icon_id": "2375",
+      "name": "店铺",
+      "font_class": "dianpu1",
+      "unicode": "3501",
+      "unicode_decimal": 13569
+    },
+    {
+      "icon_id": "2376",
+      "name": "图片",
+      "font_class": "tupian1",
+      "unicode": "3502",
+      "unicode_decimal": 13570
+    },
+    {
+      "icon_id": "2377",
+      "name": "宝贝",
+      "font_class": "baobei1",
+      "unicode": "3503",
+      "unicode_decimal": 13571
+    },
+    {
+      "icon_id": "201559",
+      "name": "火热",
+      "font_class": "huore",
+      "unicode": "f01f3",
+      "unicode_decimal": 983539
+    },
+    {
+      "icon_id": "34952306",
+      "name": "斜线",
+      "font_class": "xiexian",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    }
+  ]
+}
